@@ -37,10 +37,11 @@ experiment_as_dictinary = loaded_dict['Exp_11']
  ```
 #### 2.2- Load a specific data as a Pandas Dataframe from the experiment:
 ```python
-features_as_pandas_dataframe = experiment_as_dictinary['load_sensor_process']
 
-# To see all options:
+# To see all specific data options:
 print(list(experiment_as_dictinary.keys()))
+
+features_as_pandas_dataframe = experiment_as_dictinary['load_sensor_process']
 ```
 
 |    |   Time_[s] |   SENSOR_MANDREL_AXIAL_Load_[kN] |   SENSOR_PRESSURE-DIE_LATERAL_1_Load_[kN] |   SENSOR_PRESSURE-DIE_LATERAL_2_Load_[kN] |
