@@ -5,11 +5,8 @@ This repository contains a real-world dataset stored in a serialized Python pick
 
 The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its size (~660 MB).
 
----
 
-## ❓ How to Use This Dataset
-
-Follow these steps below to load, explore, and visualize the data in Python. 
+To load, explore, and visualize this dataset, please follow the steps below using Python. 
 
 ---
 
@@ -31,7 +28,7 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 
 ---
 
-### Part 2: 🎯 Choosing A Specific Experiment
+### Part 2: 🔍 Choosing A Specific Experiment
 #### 2.1 Load all data from an experiment as a dictionary
 
 ```python
@@ -47,7 +44,7 @@ print(list(experiment_as_dictinary.keys()))
 ```
 
 ---
-### 3- 📈 📉 Plotting Experiment:
+### 3- 📈 Plotting Experiment:
 #### 3.1- Helper Functions For Plots:
 
 ```python
@@ -145,7 +142,7 @@ def multi_sensor_subplots(df: pd.DataFrame,
 multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True)
 ```
 
-#### 3.3- 🔍 Plotting one feature from specific data:
+#### 3.3- Plotting one feature from specific data:
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', 'SENSOR_MANDREL_AXIAL_Load_[kN]']], save_fig=True)
 
@@ -153,6 +150,6 @@ multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', 'SENSOR_MANDREL_
 print(list(features_as_pandas_dataframe.columns)[1:])
 ```
 
-
+---
 
 📄 This dataset is shared for preview/research purposes. The license will be added later.
