@@ -61,7 +61,7 @@ features_as_pandas_dataframe:
 ```python
 def extract_y_label(col_name: str) -> str:
     """
-    Extracts signal type and unit for y-axis label.
+    Extracts signal type and unit for the y-axis label.
     E.g., "MANDREL_AXIAL_Load_[kN]" -> "Load [kN]"
     """
     match = re.search(r'([A-Za-z0-9\- ]+_\[[^]]+\])$', col_name)
@@ -126,7 +126,7 @@ def multi_sensor_subplots(df: pd.DataFrame,
         )
 
         fig.update_yaxes(
-            title_text=extract_y_label(col),  # this is the y-axis label on left
+            title_text=extract_y_label(col),  # this is the y-axis label on the left
             range=[y_min - margin, y_max + margin],
             row=i, col=1
         )
