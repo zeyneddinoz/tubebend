@@ -1,4 +1,4 @@
-# 📁 Tube Bending Process Dataset
+# 🗂️ Tube Bending Process Dataset
 
 This repository contains a real-world dataset stored in a serialized Python pickle file: `experiments_process_and_results.pkl`. It includes sensor readings and experimental results from a rotary tube-bending process, designed for machine learning and signal analysis research.
 
@@ -7,13 +7,13 @@ The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com
 
 ---
 
-## 🧪 How to Use This Dataset
+## How to Use This Dataset
 
 Follow these steps to load, explore, and visualize the data in Python.
 
 ---
 
-### Part 1: 🧰 Import Required Libraries and Load the Dataset
+### Part 1: Import Required Libraries and Load the Dataset
 
 ```python
 import pickle
@@ -47,7 +47,7 @@ print(list(experiment_as_dictinary.keys()))
 ```
 
 ---
-# 3- Plotting Experiment:
+### 3- 📈 📉 Plotting Experiment:
 ## 3.1- Helper Functions For Plots:
 
 ```python
@@ -145,7 +145,7 @@ def multi_sensor_subplots(df: pd.DataFrame,
 multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True)
 ```
 
-## 3.3- Plotting a feature from specific data:
+## 3.3- 🔍 Plotting a feature from specific data:
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', 'SENSOR_MANDREL_AXIAL_Load_[kN]']], save_fig=True)
 
