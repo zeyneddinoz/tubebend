@@ -153,7 +153,7 @@ def multi_sensor_subplots(df: pd.DataFrame,
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True, output_path=f"Exp_{experiment_number}_all_sensors")```
 ```
-[Click here for interactive plot result](https://zeyneddinoz.github.io/tubebend/Exp_11_all_sensors)
+[Click here for interactive plot result](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_all_sensors)
 
 
 
@@ -168,7 +168,7 @@ multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', sensor_name]], s
 print(list(features_as_pandas_dataframe.columns)[1:])
 ```
 
-[Click here for interactive plot result](https://zeyneddinoz.github.io/tubebend/Exp_11_SENSOR_MANDREL_AXIAL_Load_[kN]_sensors)
+[Click here for interactive plot result](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_SENSOR_MANDREL_AXIAL_Load_[kN]_sensors)
 
 ---
 
