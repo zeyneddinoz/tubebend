@@ -9,7 +9,7 @@ The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com
 
 ## ❓ How to Use This Dataset
 
-Follow these steps to load, explore, and visualize the data in Python.
+Follow these steps below to load, explore, and visualize the data in Python. 
 
 ---
 
@@ -32,13 +32,13 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 ---
 
 ### Part 2: 🎯 Choosing A Specific Experiment
-## 2.1 Load all data from an experiment as a dictionary
+#### 2.1 Load all data from an experiment as a dictionary
 
 ```python
 # Experiment numbers range from 1 to 318.
 experiment_as_dictinary = loaded_dict['Exp_11']
  ```
-## 2.2- Load a specific data as a Pandas Dataframe from the experiment:
+#### 2.2- Load a specific data as a Pandas Dataframe from the experiment:
 ```python
 features_as_pandas_dataframe = experiment_as_dictinary['load_sensor_process']
 
@@ -48,7 +48,7 @@ print(list(experiment_as_dictinary.keys()))
 
 ---
 ### 3- 📈 📉 Plotting Experiment:
-## 3.1- Helper Functions For Plots:
+#### 3.1- Helper Functions For Plots:
 
 ```python
 def extract_y_label(col_name: str) -> str:
@@ -140,12 +140,12 @@ def multi_sensor_subplots(df: pd.DataFrame,
     return fig
 ```
 
-## 3.2- Plotting all features from a specific data:
+#### 3.2- Plotting all features from a specific data:
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True)
 ```
 
-## 3.3- 🔍 Plotting one feature from specific data:
+#### 3.3- 🔍 Plotting one feature from specific data:
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', 'SENSOR_MANDREL_AXIAL_Load_[kN]']], save_fig=True)
 
