@@ -15,9 +15,6 @@ To load, explore, and visualize this dataset, please follow the steps below usin
 ```python
 import pickle
 
-import warnings
-warnings.filterwarnings('ignore')
-
 with open('experiments_process_and_results.pkl', 'rb') as f:
     loaded_dict = pickle.load(f)
  ```
@@ -59,6 +56,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import pandas as pd
 import re
+
+import warnings
+warnings.filterwarnings('ignore')
 
 def extract_y_label(col_name: str) -> str:
     """
