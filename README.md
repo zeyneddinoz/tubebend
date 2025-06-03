@@ -151,6 +151,7 @@ def multi_sensor_subplots(df: pd.DataFrame,
 #### 3.2- Plotting all features from a specific data:
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True, output_path=f"Exp_{experiment_number}_all_sensors")```
+```
 
 #### 3.3- Plotting one feature from specific data:
 ```python
