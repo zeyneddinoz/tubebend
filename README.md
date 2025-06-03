@@ -35,6 +35,7 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 
 experiment_as_dictinary = loaded_dict['Exp_11']
 
+---
 
 ### Part 2: 📥 Loading Dataset
 ## 2.1 Load all data from an experiment as a dictionary
