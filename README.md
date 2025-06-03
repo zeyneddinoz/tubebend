@@ -14,10 +14,6 @@ To load, explore, and visualize this dataset, please follow the steps below usin
 
 ```python
 import pickle
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import pandas as pd
-import re
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -59,6 +55,11 @@ features_as_pandas_dataframe:
 #### 3.1- Helper Functions For Plots:
 
 ```python
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+import pandas as pd
+import re
+
 def extract_y_label(col_name: str) -> str:
     """
     Extracts signal type and unit for the y-axis label.
