@@ -32,8 +32,10 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 #### 2.1 Load all data from an experiment as a dictionary
 
 ```python
-# Experiment numbers range from 1 to 318.
-experiment_as_dictinary = loaded_dict['Exp_11']
+# Experiment numbers range from 1 to 318, random selection:
+experiment_number = 11
+
+experiment_as_dictinary = loaded_dict[f'Exp_{experiment_number}']
  ```
 #### 2.2- Load a specific data as a Pandas Dataframe from the experiment:
 ```python
@@ -148,14 +150,15 @@ def multi_sensor_subplots(df: pd.DataFrame,
 
 #### 3.2- Plotting all features from a specific data:
 ```python
-multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True)
-```
+multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True, output_path=f"Exp_{experiment_number}_all_sensors")```
 
 #### 3.3- Plotting one feature from specific data:
 ```python
-multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', 'SENSOR_MANDREL_AXIAL_Load_[kN]']], save_fig=True)
+sensor_name = 'SENSOR_MANDREL_AXIAL_Load_[kN]'
 
-# Columns can be selected from this list:
+multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', sensor_name]], save_fig=True, output_path=f"Exp_{experiment_number}_{sensor_name}_sensors")
+
+# Other options can be in this list:
 print(list(features_as_pandas_dataframe.columns)[1:])
 ```
 
