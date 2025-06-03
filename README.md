@@ -153,10 +153,8 @@ def multi_sensor_subplots(df: pd.DataFrame,
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True, output_path=f"Exp_{experiment_number}_all_sensors")```
 ```
+[Click here for interactive_plot result](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_all_sensors.html)
 
-[Click here for interactive_plot result](plots/Exp_11_all_sensors.html)
-
-[📊 Interactive Plot: Exp_11 All Sensors](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_all_sensors.html)
 
 
 
