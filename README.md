@@ -2,18 +2,21 @@
 A real-world dataset of rotary tube bending machine settings, processes, and results for predicting the quality results of rotary draw bending and springback.
 
 
+# 📁 Tube Bending Process Dataset
 
-## 📄 Dataset: `experiments_process_and_results.pkl`
+This repository contains a dataset stored in a serialized Python pickle file: `experiments_process_and_results.pkl`. It includes sensor readings and experimental results from a tube-bending process, designed for machine learning and signal analysis research.
 
-This repository contains a dataset stored in a serialized Python pickle file: `experiments_process_and_results.pkl`. It includes sensor data and results from industrial process experiments. This file is tracked using [Git LFS](https://git-lfs.com/) due to its size.
+The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its size (~660 MB).
 
 ---
 
 ## 🧪 How to Use This Dataset
 
-Below are the steps to load and explore the dataset in Python.
+Follow these steps to load, explore, and visualize the data in Python.
 
-### 1. 🧰 Import Required Libraries
+---
+
+### Part 1: 🧰 Import Required Libraries and Load the Dataset
 
 ```python
 import pickle
@@ -24,6 +27,15 @@ import re
 
 import warnings
 warnings.filterwarnings('ignore')
+
+# Load the dictionary from the file
+with open('experiments_process_and_results.pkl', 'rb') as f:
+    loaded_dict = pickle.load(f)
+
+
+experiment_as_dictinary = loaded_dict['Exp_11']
+
+
 
 
 
