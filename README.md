@@ -1,10 +1,7 @@
-# tubebend
-A real-world dataset of rotary tube bending machine settings, processes, and results for predicting the quality results of rotary draw bending and springback.
-
-
 # 📁 Tube Bending Process Dataset
 
-This repository contains a dataset stored in a serialized Python pickle file: `experiments_process_and_results.pkl`. It includes sensor readings and experimental results from a tube-bending process, designed for machine learning and signal analysis research.
+This repository contains a real-world dataset stored in a serialized Python pickle file: `experiments_process_and_results.pkl`. It includes sensor readings and experimental results from a rotary tube-bending process, designed for machine learning and signal analysis research.
+
 
 The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its size (~660 MB).
 
