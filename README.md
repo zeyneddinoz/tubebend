@@ -25,7 +25,6 @@ import re
 import warnings
 warnings.filterwarnings('ignore')
 
-# Load the dictionary from the file
 with open('experiments_process_and_results.pkl', 'rb') as f:
     loaded_dict = pickle.load(f)
  ```
@@ -38,8 +37,12 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 ```python
 experiment_as_dictinary = loaded_dict['Exp_11']
  ```
+## 2.2- Load a specific data as a Pandas Dataframe from the experiment:
+```python
+features_as_pandas_dataframe = experiment_as_dictinary['load_sensor_process']
 
-
-
+# To see all options:
+print(list(experiment_as_dictinary.keys()))
+```
 
 This dataset is shared for preview/research purposes. The license will be added later.
