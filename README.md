@@ -36,8 +36,14 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 experiment_as_dictinary = loaded_dict['Exp_11']
 
 
+### Part 2: 📥 Loading Dataset
+## 2.1 Load all data from an experiment as a dictionary
+
+```python
+experiment_as_dictinary = loaded_dict['Exp_11']
 
 
 
 
-“This dataset is shared for preview/research purposes. License will be added later.”
+
+This dataset is shared for preview/research purposes. The license will be added later.
