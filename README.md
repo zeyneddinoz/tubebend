@@ -33,8 +33,6 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
     loaded_dict = pickle.load(f)
  ```
 
-experiment_as_dictinary = loaded_dict['Exp_11']
-
 ---
 
 ### Part 2: 📥 Loading Dataset
