@@ -41,6 +41,7 @@ experiment_as_dictinary = loaded_dict['Exp_11']
 # Options: ['geometry_features', 'geometry_result', 'load_machine_process', 'load_sensor_process', 'movement', 'machine_setting']
 features_as_pandas_dataframe = experiment_as_dictinary['load_sensor_process']
 ```
+features_as_pandas_dataframe:
 
 |    |   Time_[s] |   SENSOR_MANDREL_AXIAL_Load_[kN] |   SENSOR_PRESSURE-DIE_LATERAL_1_Load_[kN] |   SENSOR_PRESSURE-DIE_LATERAL_2_Load_[kN] |
 |---:|-----------:|---------------------------------:|------------------------------------------:|------------------------------------------:|
