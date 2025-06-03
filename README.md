@@ -31,7 +31,7 @@ warnings.filterwarnings('ignore')
 # Load the dictionary from the file
 with open('experiments_process_and_results.pkl', 'rb') as f:
     loaded_dict = pickle.load(f)
-
+ ```
 
 experiment_as_dictinary = loaded_dict['Exp_11']
 
@@ -42,7 +42,7 @@ experiment_as_dictinary = loaded_dict['Exp_11']
 
 ```python
 experiment_as_dictinary = loaded_dict['Exp_11']
-
+ ```
 
 
 
