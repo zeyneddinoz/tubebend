@@ -39,11 +39,12 @@ experiment_as_dictinary = loaded_dict['Exp_11']
 ```python
 features_as_pandas_dataframe = experiment_as_dictinary['load_sensor_process']
 
-'|    |   Time_[s] |   SENSOR_MANDREL_AXIAL_Load_[kN] |   SENSOR_PRESSURE-DIE_LATERAL_1_Load_[kN] |   SENSOR_PRESSURE-DIE_LATERAL_2_Load_[kN] |\n|---:|-----------:|---------------------------------:|------------------------------------------:|------------------------------------------:|\n|  0 |       0    |                        0.103435  |                                 0.028831  |                              -0.000158929 |\n|  1 |       0.01 |                        0.0984101 |                                 0.0281868 |                               0.00112951  |\n|  2 |       0.02 |                        0.100085  |                                 0.0384943 |                               0.00177373  |\n|  3 |       0.03 |                        0.0984101 |                                 0.0281868 |                              -0.000158929 |\n|  4 |       0.04 |                        0.10511   |                                 0.0391385 |                               0.000485291 |'
-
 # To see all options:
 print(list(experiment_as_dictinary.keys()))
 ```
+'|    |   Time_[s] |   SENSOR_MANDREL_AXIAL_Load_[kN] |   SENSOR_PRESSURE-DIE_LATERAL_1_Load_[kN] |   SENSOR_PRESSURE-DIE_LATERAL_2_Load_[kN] |\n|---:|-----------:|---------------------------------:|------------------------------------------:|------------------------------------------:|\n|  0 |       0    |                        0.103435  |                                 0.028831  |                              -0.000158929 |\n|  1 |       0.01 |                        0.0984101 |                                 0.0281868 |                               0.00112951  |\n|  2 |       0.02 |                        0.100085  |                                 0.0384943 |                               0.00177373  |\n|  3 |       0.03 |                        0.0984101 |                                 0.0281868 |                              -0.000158929 |\n|  4 |       0.04 |                        0.10511   |                                 0.0391385 |                               0.000485291 |'
+
+
 
 ---
 ### 3- 📈 Plotting Experiment:
