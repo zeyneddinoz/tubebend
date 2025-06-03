@@ -35,6 +35,7 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 ## 2.1 Load all data from an experiment as a dictionary
 
 ```python
+# Experiment numbers range from 1 to 318.
 experiment_as_dictinary = loaded_dict['Exp_11']
  ```
 ## 2.2- Load a specific data as a Pandas Dataframe from the experiment:
