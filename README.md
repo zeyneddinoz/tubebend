@@ -10,7 +10,7 @@ To load, explore, and visualize this dataset, please follow the steps below usin
 
 ---
 
-### Part 1: 📥 Import Required Libraries and Load the Dataset
+### Part 1: 📥 Import Required Library and Load the Dataset
 
 ```python
 import pickle
