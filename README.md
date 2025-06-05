@@ -170,7 +170,7 @@ print(list(features_as_pandas_dataframe.columns)[1:])
 
 [Click here for interactive plot result](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_SENSOR_MANDREL_AXIAL_Load_[kN]_sensors)
 
-*NOTE:* If you haven't run the code in Python yet and would like to view the results, please use the Firefox browser to open the downloaded plots.
+💡 **NOTE:** If you haven't run the code in Python yet and would like to view the results, please use the Firefox browser to open the downloaded plots.
 
 ---
 
