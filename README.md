@@ -48,7 +48,7 @@ features_as_pandas_dataframe:
 
 
 ---
-### 3- 📈 Plotting Experiment:
+### 3- 📈 Plotting Experiment
 #### 3.1- Helper Functions For Plots:
 
 ```python
