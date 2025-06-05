@@ -164,7 +164,7 @@ sensor_name = 'SENSOR_MANDREL_AXIAL_Load_[kN]'
 
 multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', sensor_name]], save_fig=True, output_path=f"Exp_{experiment_number}_{sensor_name}_sensors")
 
-# Other options can be in this list:
+# Other options can be seen in this list:
 print(list(features_as_pandas_dataframe.columns)[1:])
 ```
 
