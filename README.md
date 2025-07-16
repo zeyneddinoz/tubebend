@@ -1,9 +1,9 @@
 # ⚙️ Rotary Tube Bending Process Dataset
 
-This repository contains a real-world dataset extracted from 318 experiments stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed for machine learning and signal analysis research. <br><br>
+This repository contains a real-world dataset extracted from 318 experiments stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed for machine learning and signal analysis research. It includes: <br><br>
 
 
-It includes:
+
 **A- Bending Setups**:
   * **Tube:** Outer Diameter, Wall Thickness
   * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position. <br><br>
