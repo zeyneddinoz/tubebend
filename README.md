@@ -3,6 +3,34 @@
 This repository contains a real-world dataset stored in a serialized Python pickle file: `experiments_process_and_results.pkl`. It includes sensor readings and experimental results from a rotary tube-bending process, designed for machine learning and signal analysis research.
 
 
+
+It includes the following bending setups:
+  * Tube: Outer Diameter, Wall Thickness
+  * Machine: Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position.
+
+Additionally, it covers the following process parameters:
+  * Loads: 
+    * Machine: Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial.  
+    * Sensor: Mandrel Axial, Pressure Die Lateral 1, and Pressure Die Lateral 2.
+
+  * Movements: Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial.
+
+Moreover, it has the following tube geometry data:
+  * Individual Data:
+    * Linear 1: 50 series of datasets from one endpoint of the arc
+    * Arc: Datasets ranging from 0 to the bending target angle, going up every 1 degree
+    * Linear 2: 25 series of datasets from another endpoint of the arc
+  * Group Data:
+    * Linear 1: Secondary Axis, Main Axis, Out of Roundness
+    * Arc: Secondary Axis, Main Axis, Out of Roundness
+    * Linear 2: Secondary Axis, Main Axis, Out of Roundness
+
+
+
+
+
+
+
 The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its size (~660 MB).
 
 
