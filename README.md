@@ -1,6 +1,6 @@
 # ⚙️ Rotary Tube Bending Process Dataset
 
-This repository contains a real-world dataset extracted from 318 experiments stored in a serialized Python pickle file named `experiments_process_and_results.pkl` for machine learning and signal analysis research. <br><br>
+This repository contains a real-world dataset extracted from 318 experiments stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed for machine learning and signal analysis research. <br><br>
 
 
 It includes the following bending setups:
