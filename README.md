@@ -15,7 +15,7 @@ This repository contains a real-world dataset extracted from 318 experiments sto
   * **Movements:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial. <br><be>
 
 <p align="center">
-  <img src="plots/machine_directions.png" width="70%" alt="Force and movement directions of the process." />
+  <img src="plots/machine_directions.png" width="90%" alt="Force and movement directions of the process." />
 </p>
 <p align="center">
   <em>Figure 1: Force and movement directions of the process.</em>
