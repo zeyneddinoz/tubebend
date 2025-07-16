@@ -59,9 +59,7 @@ experiment_number = 11
 experiment_as_dictinary = loaded_dict[f'Exp_{experiment_number}']
  ```
 #### 2.2- Load a specific data as a Pandas Dataframe from the experiment:
-```python
 
-# Options: ['geometry_features', 'geometry_result', 'load_machine_process', 'load_sensor_process', 'movement', 'machine_setting']
 # load_machine_process contains: Loads the datase
 # load_sensor_process contains: Mandrel Axial, pressure Due Lateral 1, Pressure Die Lateral 2
 # geometry_features contains:
@@ -71,6 +69,10 @@ experiment_as_dictinary = loaded_dict[f'Exp_{experiment_number}']
 
 # Each Option brings up a series of data according to the chosen name. These data are mentioned above 
 
+
+
+```python
+# Options: ['geometry_features', 'geometry_result', 'load_machine_process', 'load_sensor_process', 'movement', 'machine_setting']
 features_as_pandas_dataframe = experiment_as_dictinary['load_sensor_process']
 ```
 features_as_pandas_dataframe.head():
