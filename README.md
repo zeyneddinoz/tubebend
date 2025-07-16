@@ -1,18 +1,18 @@
 # ⚙️ Rotary Tube Bending Process Dataset
 
-This repository contains a real-world dataset designed for machine learning and signal analysis research in a serialized Python pickle file format named `experiments_process_and_results.pkl`
+This repository contains a real-world dataset designed for machine learning and signal analysis research in a serialized Python pickle file format named `experiments_process_and_results.pkl` <br><br>
 
 
 It includes the following bending setups:
   * **Tube:** Outer Diameter, Wall Thickness
-  * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position.
+  * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position. <br><br>
 
 
 Additionally, it covers the following process parameters:
   * **Loads:** 
     * **Machine:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial.  
     * **Sensor:** Mandrel Axial, Pressure Die Lateral 1, and Pressure Die Lateral 2.
-  * **Movements:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial.
+  * **Movements:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial. <br><br>
 
 
 Moreover, it has the following tube geometry data:
@@ -23,7 +23,7 @@ Moreover, it has the following tube geometry data:
   * **Group Data:**
     * **Linear 1:** Secondary Axis, Main Axis, Out of Roundness
     * **Arc:** Secondary Axis, Main Axis, Out of Roundness
-    * **Linear 2:** Secondary Axis, Main Axis, Out of Roundness
+    * **Linear 2:** Secondary Axis, Main Axis, Out of Roundness <br><br>
 
 
 
