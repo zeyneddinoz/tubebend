@@ -8,6 +8,18 @@ This repository contains a real-world dataset extracted from 318 experiments sto
   <img src="plots/tube_bending_machine_process.gif" alt="Animated Demo" width="45%" style="max-width: 100%; height: auto;">
 </p>
 
+<p align="center">
+  <span style="display: inline-block; text-align: center; width: 48.5%; margin-right: 2%;">
+    <img src="plots/tube_bending_machine.png" alt="Static Diagram" width="100%" style="max-width: 100%; height: auto;"><br>
+    <em>(a) Tube bending tools. </em>
+  </span>
+  <span style="display: inline-block; text-align: center; width: 45%;">
+    <img src="plots/tube_bending_machine_process.gif" alt="Animated Demo" width="100%" style="max-width: 100%; height: auto;"><br>
+    <em>(b) The process. </em>
+  </span>
+</p>
+
+
 **A- Bending Setups**:
   * **Tube:** Outer Diameter, Wall Thickness
   * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position. <br><be>
