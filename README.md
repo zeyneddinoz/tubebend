@@ -23,21 +23,6 @@ This repository contains a real-world dataset extracted from 318 experiments sto
     * **Sensor:** Mandrel Axial, Pressure Die Lateral 1, and Pressure Die Lateral 2.
   * **Movements:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial. <br><be>
 
-
-<p align="center">
-  <img src="plots/machine_directions.png" alt="Static Diagram" width="48.5%" style="max-width: 110%; height: auto; margin-right: 2%;">
-  <img src="plots/geometry_data.png" alt="Animated Demo" width="45%" style="max-width: 100%; height: auto;">
-  <em>  <br><be> Figure 1: The left shows the cross-section of the tube bending machine and its tools (1- Bend Die, 2.1- Inner Clamp Die, 2.2- Outer Clamp Die, 3- Pressure Die, 4- Mandrel, 5- Wiper Die, 6- Collet). The right shows the bending process. </em>
-</p>
-
-
-<p align="center">
-  <img src="plots/machine_directions.png" width="90%" alt="Force and movement directions of the process." />
-</p>
-<p align="center">
-  <em>Figure 2: Force and movement directions of the process.</em>
-</p>
-
 **C- Geometry Data**:
   * **STL Suitable:**
     * **Linear 1:** 50 series of datasets from one endpoint of the arc
@@ -50,10 +35,9 @@ This repository contains a real-world dataset extracted from 318 experiments sto
 
 
 <p align="center">
-  <img src="plots/geometry_data.png" width="90%" alt="Force and movement directions of the process." />
-</p>
-<p align="center">
-  <em>Figure 3: Geometry data description.</em>
+  <img src="plots/machine_directions.png" alt="Static Diagram" width="48.5%" style="max-width: 110%; height: auto; margin-right: 2%;">
+  <img src="plots/geometry_data.png" alt="Animated Demo" width="45%" style="max-width: 100%; height: auto;">
+  <em>  <br><be> Figure 1: The left shows the cross-section of the tube bending machine and its tools (1- Bend Die, 2.1- Inner Clamp Die, 2.2- Outer Clamp Die, 3- Pressure Die, 4- Mandrel, 5- Wiper Die, 6- Collet). The right shows the bending process. </em>
 </p>
 
 
