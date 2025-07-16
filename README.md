@@ -32,6 +32,14 @@ This repository contains a real-world dataset extracted from 318 experiments sto
     * **Linear 2:** Secondary Axis, Main Axis, Out of Roundness <br><be>
 
 
+<p align="center">
+  <img src="plots/geometry_data.png" width="90%" alt="Force and movement directions of the process." />
+</p>
+<p align="center">
+  <em>Figure 1: Geometry data description.</em>
+</p>
+
+
 The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its size (~660 MB).
 
 
