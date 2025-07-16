@@ -15,7 +15,7 @@ This repository contains a real-world dataset extracted from 318 experiments sto
   * **Movements:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial. <br><be>
 
 <div style="display: flex; align-items: center;">
-  <img src="plots/machine_directions.png" alt="Description of image" style="width: 1000px; height: auto; margin-right: 100px;">
+  <img src="plots/machine_directions.png" alt="Description of image" style="width: 900px; height: auto; margin-right: 100px;">
 </div>  
 
 
