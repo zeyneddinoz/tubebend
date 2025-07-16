@@ -22,11 +22,11 @@ This repository contains a real-world dataset extracted from 318 experiments sto
 </p>
 
 **C- Geometry Data**:
-  * **Individual Data:**
+  * **STL Suitable:**
     * **Linear 1:** 50 series of datasets from one endpoint of the arc
     * **Arc:** Datasets ranging from 0 to the bending target angle, going up every 1 degree
     * **Linear 2:** 25 series of datasets from another endpoint of the arc
-  * **Group Data:**
+  * **Key Characteristics:**
     * **Linear 1:** Secondary Axis, Main Axis, Out of Roundness
     * **Arc:** Secondary Axis, Main Axis, Out of Roundness
     * **Linear 2:** Secondary Axis, Main Axis, Out of Roundness <br><be>
