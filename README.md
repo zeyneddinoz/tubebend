@@ -3,19 +3,20 @@
 This repository contains a real-world dataset extracted from 318 experiments stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed for machine learning and signal analysis research. <br><br>
 
 
-It includes the following **bending setups**:
+It includes:
+**A- Bending Setups**:
   * **Tube:** Outer Diameter, Wall Thickness
   * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position. <br><br>
 
 
-Additionally, it covers the following **process parameters**:
+**B- Process Parameters**:
   * **Loads:** 
     * **Machine:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial.  
     * **Sensor:** Mandrel Axial, Pressure Die Lateral 1, and Pressure Die Lateral 2.
   * **Movements:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial. <br><br>
 
 
-Moreover, it has the following tube **geometry data**:
+**C- Geometry Data**:
   * **Individual Data:**
     * **Linear 1:** 50 series of datasets from one endpoint of the arc
     * **Arc:** Datasets ranging from 0 to the bending target angle, going up every 1 degree
