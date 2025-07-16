@@ -36,7 +36,7 @@ This repository contains a real-world dataset extracted from 318 experiments sto
 
 <p align="center">
   <img src="plots/machine_directions.png" alt="Static Diagram" width="58%" style="max-width: 100%; height: auto; margin-right: 2%;">
-  <img src="plots/geometry_data.png" alt="Animated Demo" width="40%" style="max-width: 100%; height: auto;">
+  <img src="plots/geometry_data.png" alt="Animated Demo" width="39.5%" style="max-width: 100%; height: auto;">
   <em>  <br><be> Figure 1: The left shows the cross-section of the tube bending machine and its tools (1- Bend Die, 2.1- Inner Clamp Die, 2.2- Outer Clamp Die, 3- Pressure Die, 4- Mandrel, 5- Wiper Die, 6- Collet). The right shows the bending process. </em>
 </p>
 
