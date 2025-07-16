@@ -3,7 +3,7 @@
 This repository contains a real-world dataset designed for machine learning and signal analysis research in a serialized Python pickle file format named `experiments_process_and_results.pkl`
 
 It includes the following bending setups:
-  * Tube: Outer Diameter, Wall Thickness
+  * **Tube:** Outer Diameter, Wall Thickness
   * Machine: Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position.
 
 Additionally, it covers the following process parameters:
