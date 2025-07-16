@@ -4,7 +4,7 @@ This repository contains a real-world dataset extracted from 318 experiments sto
 
 
 
-#### A- Bending Setups:
+## A- Bending Setups:
   * **Tube:** Outer Diameter, Wall Thickness
   * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position. <br><br>
 
