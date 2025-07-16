@@ -14,9 +14,11 @@ This repository contains a real-world dataset extracted from 318 experiments sto
     * **Sensor:** Mandrel Axial, Pressure Die Lateral 1, and Pressure Die Lateral 2.
   * **Movements:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial. <br><be>
 
-<div style="display: flex; align-items: center;">
-  <img src="plots/machine_directions.png" alt="Description of image" style="width: 900px; height: auto; margin-right: 100px;">
-</div>  
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="plots/machine_directions.png" alt="Description of image" style="width: 900px; height: auto; margin-bottom: 10px;">
+  <p style="font-size: 16px; font-weight: bold;">Figure 1: Force and movement directions of the process.</p>
+</div>
+
 
 
 **C- Geometry Data**:
