@@ -2,10 +2,11 @@
 
 This repository contains a real-world dataset extracted from 318 experiments stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed for machine learning and signal analysis research. It includes: <br><be>
 
-![Alt text](plots/tube_bending_machine_process.gif)
 
-
-
+<p align="center">
+  <img src="plots/tube_bending_machine.png" alt="Static Diagram" width="45%" style="max-width: 100%; height: auto; margin-right: 2%;">
+  <img src="plots/tube_bending_machine_process.gif" alt="Animated Demo" width="45%" style="max-width: 100%; height: auto;">
+</p>
 
 **A- Bending Setups**:
   * **Tube:** Outer Diameter, Wall Thickness
