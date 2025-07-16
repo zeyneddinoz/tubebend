@@ -4,7 +4,7 @@ This repository contains a real-world dataset extracted from 318 experiments sto
 
 
 <p align="center">
-  <img src="plots/tube_bending_machine.png" alt="Static Diagram" width="53%" style="max-width: 110%; height: auto; margin-right: 2%;">
+  <img src="plots/tube_bending_machine.png" alt="Static Diagram" width="50%" style="max-width: 110%; height: auto; margin-right: 2%;">
   <img src="plots/tube_bending_machine_process.gif" alt="Animated Demo" width="45%" style="max-width: 100%; height: auto;">
 </p>
 
