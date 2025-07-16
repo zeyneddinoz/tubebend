@@ -36,7 +36,7 @@ This repository contains a real-world dataset extracted from 318 experiments sto
   <img src="plots/geometry_data.png" width="90%" alt="Force and movement directions of the process." />
 </p>
 <p align="center">
-  <em>Figure 1: Geometry data description.</em>
+  <em>Figure 2: Geometry data description.</em>
 </p>
 
 
