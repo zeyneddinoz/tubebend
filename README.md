@@ -7,14 +7,15 @@ This repository contains a real-world dataset extracted from 318 experiments sto
   * **Tube:** Outer Diameter, Wall Thickness
   * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position. <br><be>
 
-<div style="display: flex; align-items: center;">
-  <img src="plots/machine_directions.png" alt="Description of image" style="width: 100px; height: auto; margin-right: 10px;">
-  **B- Process Parameters**:
+**B- Process Parameters**:
   * **Loads:** 
-    * **Machine:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial.  
+    * **Machine:** <div style="display: flex; align-items: center;">
+  <img src="plots/machine_directions.png" alt="Description of image" style="width: 100px; height: auto; margin-right: 10px;">
+  Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial.
+</div>  
     * **Sensor:** Mandrel Axial, Pressure Die Lateral 1, and Pressure Die Lateral 2.
   * **Movements:** Bend Die Lateral, Bend Die Rotating, Bend Die Vertical, Clamp Die Lateral, Collet Axial, Collet Rotating, Mandrel Axial, Pressure Die Axial, Pressure Die Lateral, and Pressure Die Left Axial. <br><br>
-</div>
+
 
 
 **B- Process Parameters**:
