@@ -3,7 +3,6 @@
 This repository contains a real-world dataset extracted from 318 experiments stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed for machine learning and signal analysis research. It includes: <br><br>
 
 
-***
 **A- Bending Setups**:
   * **Tube:** Outer Diameter, Wall Thickness
   * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position. <br><br>
@@ -24,12 +23,7 @@ This repository contains a real-world dataset extracted from 318 experiments sto
   * **Group Data:**
     * **Linear 1:** Secondary Axis, Main Axis, Out of Roundness
     * **Arc:** Secondary Axis, Main Axis, Out of Roundness
-    * **Linear 2:** Secondary Axis, Main Axis, Out of Roundness <br><br>
-***
-
-
-
-
+    * **Linear 2:** Secondary Axis, Main Axis, Out of Roundness <br><be>
 
 
 The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its size (~660 MB).
