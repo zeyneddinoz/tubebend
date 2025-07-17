@@ -1,6 +1,6 @@
-# ⚙️ Rotary Tube Bending Process Dataset
+# Rotary Tube Bending Process Dataset
 
-Authors: Zeyneddin Oz, Alireza Yazdani, Jonas Knoche, Bernd Engel, Kristof Van Laerhoven
+Authors: Zeyneddin Oz, Jonas Knoche, Alireza Yazdani, Bernd Engel, Kristof Van Laerhoven
 
 This repository contains a real-world dataset extracted from 318 tube bending processes, stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed for machine learning and signal analysis research. It includes: <br><be>
 
