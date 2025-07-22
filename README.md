@@ -2,7 +2,7 @@
 
 Authors: Zeyneddin Oz, Jonas Knoche, Alireza Yazdani, Bernd Engel, Kristof Van Laerhoven
 
-This repository contains a real-world dataset extracted from 318 tube bending processes, stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed for machine learning and signal analysis research. It includes: <br><be>
+This repository contains a real-world dataset extracted from 318 tube bending processes, stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed as a benchmark for validating and comparing the performance of machine learning and signal analysis methods. The dataset includes: <br><be>
 
 
 <p align="center">
@@ -43,10 +43,10 @@ This repository contains a real-world dataset extracted from 318 tube bending pr
 </p>
 
 
-The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its size (~660 MB).
+The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its larger size (~660 MB).
 
 
-To load, explore, and visualize this dataset, please follow the steps below using Python. 
+To load, explore, and visualize data from this dataset, the following steps can be followed, using Python. 
 
 ---
 
@@ -72,7 +72,7 @@ experiment_as_dictinary = loaded_dict[f'Exp_{experiment_number}']
  ```
 #### 2.2- Load a specific data as a Pandas Dataframe from the experiment:
 
-The following option names are chosen based on the data you need.
+The following option names are chosen based on the data.
 
 ```python
 # Options: ['geometry_features', 'geometry_result', 'load_machine_process', 'load_sensor_process', 'movement', 'machine_setting']
