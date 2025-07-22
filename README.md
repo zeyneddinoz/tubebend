@@ -12,8 +12,6 @@ This repository contains a real-world dataset extracted from 318 tube bending pr
 </p>
 
 
-
-
 **A- Bending Setups**:
   * **Tube:** Outer Diameter, Wall Thickness
   * **Machine:** Bending Target Angle, Wiper Die Shortening, Pressure Die Lateral Position, Pressure Die Distance, Pressure Die Boost, Mandrel Position, Mandrel Retraction Timing, Collet Boost, and Clamp Die Lateral Position. <br><be>
@@ -50,7 +48,7 @@ To load, explore, and visualize data from this dataset, the following steps can 
 
 ---
 
-### Part 1: 📥 Import Required Library and Load the Dataset
+### Part 1: Import Required Library and Load the Dataset
 
 ```python
 import pickle
@@ -61,7 +59,7 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 
 ---
 
-### Part 2: 🔍 Choosing A Specific Experiment
+### Part 2: Choosing A Specific Experiment
 #### 2.1 Load all data from an experiment as a dictionary
 
 ```python
@@ -90,7 +88,7 @@ features_as_pandas_dataframe.head():
 
 
 ---
-### 3- 📈 Plotting Experiment
+### 3- Plotting Experiment
 #### 3.1- Helper Functions For Plots:
 
 ```python
@@ -195,8 +193,7 @@ def multi_sensor_subplots(df: pd.DataFrame,
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True, output_path=f"Exp_{experiment_number}_all_sensors")
 ```
-[Click here for interactive plot result](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_all_sensors)
-
+[Click here for interactive plot result (Firefox only)](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_all_sensors)
 
 
 
@@ -210,9 +207,7 @@ multi_sensor_subplots(features_as_pandas_dataframe[['Time_[s]', sensor_name]], s
 print(list(features_as_pandas_dataframe.columns)[1:])
 ```
 
-[Click here for interactive plot result](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_SENSOR_MANDREL_AXIAL_Load_[kN]_sensors)
-
-💡 **NOTE:** If you haven't run the code in Python yet and would like to view the results, please use the Firefox browser to open the downloaded plots.
+[Click here for interactive plot result (Firefox only)](https://zeyneddinoz.github.io/tubebend/plots/Exp_11_SENSOR_MANDREL_AXIAL_Load_[kN]_sensors)
 
 ---
 
