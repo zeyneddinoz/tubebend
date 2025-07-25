@@ -69,8 +69,8 @@ all_bending_setups = pd.concat([experiments_process_and_results[experiment_name]
  ```
 ---
 
-### Part 2: Choosing A Specific Experiment
-#### 2.1 Load all data from an experiment as a dictionary
+### Part 3: Choosing A Specific Experiment
+#### 3.1 Load all data from an experiment as a dictionary
 
 ```python
 # Experiment numbers range from 1 to 318, random selection:
@@ -78,7 +78,7 @@ experiment_number = 11
 
 experiment_as_dictinary = loaded_dict[f'Exp_{experiment_number}']
  ```
-#### 2.2- Load a specific data as a Pandas Dataframe from the experiment:
+#### 3.2- Load a specific data as a Pandas Dataframe from the experiment:
 
 The following option names are chosen based on the data.
 
@@ -98,8 +98,8 @@ features_as_pandas_dataframe.head():
 
 
 ---
-### 3- Plotting Experiment
-#### 3.1- Helper Functions For Plots:
+### 4- Plotting Experiment
+#### 4.1- Helper Functions For Plots:
 
 ```python
 import plotly.graph_objects as go
@@ -199,7 +199,7 @@ def multi_sensor_subplots(df: pd.DataFrame,
     return fig
 ```
 
-#### 3.2- Plotting all features from a specific data:
+#### 4.2- Plotting all features from a specific data:
 ```python
 multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True, output_path=f"Exp_{experiment_number}_all_sensors")
 ```
@@ -207,7 +207,7 @@ multi_sensor_subplots(features_as_pandas_dataframe, save_fig=True, output_path=f
 
 
 
-#### 3.3- Plotting one feature from specific data:
+#### 4.3- Plotting one feature from specific data:
 ```python
 sensor_name = 'SENSOR_MANDREL_AXIAL_Load_[kN]'
 
