@@ -94,7 +94,7 @@ These names are:
 
 *  geometry_data_key_characteristics_linear_1
 *  geometry_data_key_characteristics_arc
-*  'geometry_data_key_characteristics_linear_2'
+*  geometry_data_key_characteristics_linear_2
 
 
 ```python
