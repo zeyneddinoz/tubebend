@@ -94,11 +94,11 @@ These names are:
 
 *  geometry_data_key_characteristics_linear_1
 *  geometry_data_key_characteristics_arc
-*  geometry_data_key_characteristics_linear_2
+*  'geometry_data_key_characteristics_linear_2'
 
 
 ```python
-# Options: ['geometry_features', 'geometry_result', 'load_machine_process', 'load_sensor_process', 'movement', 'machine_setting']
+# Loading the desired section from the dataframe
 features_as_pandas_dataframe = experiment_as_dictinary['process_parameters_loads_sensor']
 ```
 features_as_pandas_dataframe.head():
