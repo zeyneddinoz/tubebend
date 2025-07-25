@@ -116,7 +116,7 @@ features_as_pandas_dataframe.head():
 ---
 ---
 ---
-<div style="max-height:150px; overflow:auto;">
+<div style="max-height:70px; overflow:auto;">
 
 <table>
   <thead>
