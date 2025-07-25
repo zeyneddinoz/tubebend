@@ -73,18 +73,33 @@ all_bending_setups = pd.concat([experiments_process_and_results[experiment_name]
 #### 3.1 Load all data from an experiment as a dictionary
 
 ```python
-# Experiment numbers range from 1 to 318, random selection:
+# Experiment numbers range from 1 to 318. For example, we select the 11th one:
 experiment_number = 11
 
 experiment_as_dictinary = loaded_dict[f'Exp_{experiment_number}']
  ```
-#### 3.2- Load a specific data as a Pandas Dataframe from the experiment:
+#### 3.2- Loading a specific section from the selected experiment's dataframe:
+We gave each section a name according to the dataset definition at the beginning of this document, which can later be used to load that specific part of the data.
+These names are:
 
-The following option names are chosen based on the data.
+*  bending_setups
+
+*  process_parameters_loads_machine
+*  process_parameters_loads_sensor
+*  process_parameters_movements
+
+*  geometry_data_stl_suitable_linear_1
+*  geometry_data_stl_suitable_arc
+*  geometry_data_stl_suitable_linear_2
+
+*  geometry_data_key_characteristics_linear_1
+*  geometry_data_key_characteristics_arc
+*  geometry_data_key_characteristics_linear_2
+
 
 ```python
 # Options: ['geometry_features', 'geometry_result', 'load_machine_process', 'load_sensor_process', 'movement', 'machine_setting']
-features_as_pandas_dataframe = experiment_as_dictinary['load_sensor_process']
+features_as_pandas_dataframe = experiment_as_dictinary['process_parameters_loads_sensor']
 ```
 features_as_pandas_dataframe.head():
 
