@@ -2,8 +2,8 @@
 
 Authors: Zeyneddin Oz, Jonas Knoche, Alireza Yazdani, Bernd Engel, Kristof Van Laerhoven
 
-This repository contains a real-world dataset extracted from 318 tube bending processes, stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. This dataset is designed as a benchmark for validating and comparing the performance of machine learning and signal analysis methods. The dataset includes: <br><be>
 
+"This repository contains a real-world dataset from 318 tube bending processes (including 3 failed cases: IDs 1, 48, and 166). The dataset is stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. It is designed as a benchmark for validating and comparing the performance of machine learning and signal analysis methods." The dataset includes: <br><be>
 
 <p align="center">
   <img src="plots/tube_bending_machine.png" alt="Static Diagram" width="51%" style="max-width: 100%; height: auto; margin-right: 2%;">
