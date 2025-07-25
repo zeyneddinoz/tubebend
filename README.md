@@ -95,11 +95,7 @@ all_bending_setups:
     <tr><td>0</td><td>1</td><td>107.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.3</td><td>0.0</td><td>-2909.8</td><td>2.0</td><td>0.85</td><td>Connection to machine failed</td></tr>
     <tr><td>1</td><td>2</td><td>106.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.3</td><td>0.0</td><td>-2909.8</td><td>2.0</td><td>0.85</td><td>NaN</td></tr>
     <tr><td>2</td><td>3</td><td>105.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.3</td><td>0.0</td><td>-2909.8</td><td>2.0</td><td>0.85</td><td>NaN</td></tr>
-    <tr><td>3</td><td>4</td><td>104.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.3</td><td>0.0</td><td>-2909.6</td><td>2.0</td><td>0.85</td><td>NaN</td></tr>
-    <tr><td>4</td><td>5</td><td>103.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.3</td><td>0.0</td><td>-2909.6</td><td>2.0</td><td>0.85</td><td>NaN</td></tr>
     <tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
-    <tr><td>313</td><td>314</td><td>219.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.6</td><td>0.9</td><td>-2905.6</td><td>2.0</td><td>0.90</td><td>NaN</td></tr>
-    <tr><td>314</td><td>315</td><td>218.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.6</td><td>0.9</td><td>-2905.6</td><td>2.0</td><td>0.90</td><td>NaN</td></tr>
     <tr><td>315</td><td>316</td><td>217.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.6</td><td>0.9</td><td>-2905.6</td><td>2.0</td><td>0.90</td><td>NaN</td></tr>
     <tr><td>316</td><td>317</td><td>216.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.6</td><td>0.9</td><td>-2907.6</td><td>2.0</td><td>0.90</td><td>NaN</td></tr>
     <tr><td>317</td><td>318</td><td>215.0</td><td>22.0</td><td>1.0</td><td>47.0</td><td>5.0</td><td>-50.45</td><td>0.6</td><td>0.9</td><td>-2907.6</td><td>2.0</td><td>0.90</td><td>NaN</td></tr>
