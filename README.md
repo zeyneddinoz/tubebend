@@ -61,6 +61,13 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
  ```
 
 ---
+### Part 2: Showing All Bending Setups
+
+```python
+# To see all bending setups in one table
+all_bending_setups = pd.concat([experiments_process_and_results[experiment_name]['bending_setups'] for experiment_name in experiments_process_and_results.keys()], ignore_index=True)
+ ```
+---
 
 ### Part 2: Choosing A Specific Experiment
 #### 2.1 Load all data from an experiment as a dictionary
