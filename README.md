@@ -68,7 +68,6 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 from utils import take_all_bending_setups
 
 all_bending_setups = take_all_bending_setups(experiments_process_and_results)
-
 all_bending_setups:
  ```
 
