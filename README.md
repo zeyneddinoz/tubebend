@@ -44,9 +44,7 @@ This repository contains a real-world dataset from 318 tube bending processes (i
 The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com/) due to its larger size (~660 MB).
 
 
-To load, explore, and visualize data from this dataset, the following steps can be followed using Python. First, install the required packages:
-
-The Python version should be 3.10 or higher.
+To load, explore, and visualize data from this dataset, the following steps can be followed using Python (version 3.10 or higher). First, install the required packages:
 
 ```python
 pip install -r requirements.txt
