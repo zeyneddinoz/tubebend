@@ -177,4 +177,6 @@ print(list(features_as_pandas_dataframe.columns)[1:])
 
 ---
 
-📄 This dataset is shared for preview/research purposes. The license will be added later.
+This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project-IDs 520256321.
+
+📄 The dataset is shared for preview/research purposes. The license will be added later.
