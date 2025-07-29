@@ -45,6 +45,9 @@ The file is tracked using [Git Large File Storage (Git LFS)](https://git-lfs.com
 
 
 To load, explore, and visualize data from this dataset, the following steps can be followed using Python. First, install the required packages:
+
+The Python version should be 3.10 or higher.
+
 ```python
 pip install -r requirements.txt
 ```
