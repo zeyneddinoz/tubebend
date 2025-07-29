@@ -68,7 +68,7 @@ with open('experiments_process_and_results.pkl', 'rb') as f:
 # To see all bending setups in one table
 from utils import take_all_bending_setups
 
-all_bending_setups = take_all_bending_setups(experiments_process_and_results)
+all_bending_setups = take_all_bending_setups(loaded_dict)
 all_bending_setups:
  ```
 
