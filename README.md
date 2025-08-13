@@ -166,4 +166,4 @@ This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Researc
 📄 The dataset is shared for preview/research purposes. The license will be added later.
 
 ## References
-[1] Borchmann, L., Schneider, D., & Engel, B. (2021). *Design of a fuzzy controller to prevent wrinkling during rotary draw bending*. Prof. Anne Marie Habraken.
+[1] Borchmann, L., Schneider, D., and Engel, B. *Design of a fuzzy controller to prevent wrinkling during rotary draw bending* (2021).
