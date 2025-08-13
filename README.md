@@ -74,35 +74,16 @@ all_bending_setups:
 
 <div style="max-height:130px; overflow:auto;">
 
-<table>
-  <thead>
-    <tr>
-      <th>Experiment</th>
-      <th>Tube</th>
-      <th>Outer-diameter</th>
-      <th>Wall-thickness</th>
-      <th>Target-angle</th>
-      <th>Wiper-die shortening</th>
-      <th>Pressure-die lateral position</th>
-      <th>Pressure-die distance</th>
-      <th>Pressure-die boost</th>
-      <th>Mandrel position</th>
-      <th>Mandrel retraction timing</th>
-      <th>Collet boost</th>
-      <th>Clamp-die lateral position</th>
-      <th>Comments</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>1</td><td>107</td><td>22</td><td>1</td><td>47</td><td>5</td><td>-50.45</td><td>0.3</td><td>0</td><td>-2909.8</td><td>2</td><td>0.85</td><td>225.25</td><td>Connection to machine failed</td></tr>
-    <tr><td>2</td><td>106</td><td>22</td><td>1</td><td>47</td><td>5</td><td>-50.45</td><td>0.3</td><td>0</td><td>-2909.8</td><td>2</td><td>0.85</td><td>225.25</td><td></td></tr>
-    <tr><td>3</td><td>105</td><td>22</td><td>1</td><td>47</td><td>5</td><td>-50.45</td><td>0.3</td><td>0</td><td>-2909.8</td><td>2</td><td>0.85</td><td>225.25</td><td></td></tr>
-    <tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
-    <tr><td>316</td><td>217</td><td>22</td><td>1</td><td>47</td><td>5</td><td>-50.45</td><td>0.6</td><td>0.9</td><td>-2905.6</td><td>2</td><td>0.9</td><td>225.4</td><td></td></tr>
-    <tr><td>317</td><td>216</td><td>22</td><td>1</td><td>47</td><td>5</td><td>-50.45</td><td>0.6</td><td>0.9</td><td>-2907.6</td><td>2</td><td>0.9</td><td>225.4</td><td></td></tr>
-    <tr><td>318</td><td>215</td><td>22</td><td>1</td><td>47</td><td>5</td><td>-50.45</td><td>0.6</td><td>0.9</td><td>-2907.6</td><td>2</td><td>0.9</td><td>225.4</td><td></td></tr>
-  </tbody>
-</table>
+|   | Experiment | Tube | Outer-diameter | Wall-thickness | Target-angle | Wiper-die shortening | Pressure-die lateral position | Pressure-die distance | Pressure-die boost | Mandrel position | Mandrel retraction timing | Collet boost | Clamp-die lateral position | Comments |
+|--:|-----------:|-----:|---------------:|---------------:|-------------:|---------------------:|------------------------------:|----------------------:|-------------------:|-----------------:|--------------------------:|-------------:|---------------------------:|----------|
+| 0 | 1          | 107  | 22              | 1               | 47           | 5                     | -50.45                        | 0.3                   | 0                  | -2909.8          | 2                         | 0.85         | 225.25                    | Connection to machine failed |
+| 1 | 2          | 106  | 22              | 1               | 47           | 5                     | -50.45                        | 0.3                   | 0                  | -2909.8          | 2                         | 0.85         | 225.25                    |          |
+| 2 | 3          | 105  | 22              | 1               | 47           | 5                     | -50.45                        | 0.3                   | 0                  | -2909.8          | 2                         | 0.85         | 225.25                    |          |
+| ... | ...      | ...  | ...             | ...             | ...          | ...                   | ...                           | ...                   | ...                | ...              | ...                       | ...          | ...                       | ...      |
+| 315 | 316      | 217  | 22              | 1               | 47           | 5                     | -50.45                        | 0.6                   | 0.9                | -2905.6          | 2                         | 0.9          | 225.4                     |          |
+| 316 | 317      | 216  | 22              | 1               | 47           | 5                     | -50.45                        | 0.6                   | 0.9                | -2907.6          | 2                         | 0.9          | 225.4                     |          |
+| 317 | 318      | 215  | 22              | 1               | 47           | 5                     | -50.45                        | 0.6                   | 0.9                | -2907.6          | 2                         | 0.9          | 225.4                     |          |
+
 
 
 ---
