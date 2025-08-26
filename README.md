@@ -56,32 +56,114 @@ pip install -r requirements.txt
 ---
 
 
-```mermaid
-graph LR
-    TB[TubeBend Dataset] --> BS[Bending Setups]
-    TB --> PP[Process Parameters]
-    TB --> GD[Geometry Data]
+graph TB
+    %% Root node
+    Root[TubeBend Dataset]:::root
     
-    BS --> T[Tube]
-    BS --> M[Machine]
+    %% Main branches
+    Root --> BS[Bending Setups]:::branch1
+    Root --> PP[Process Parameters]:::branch1
+    Root --> GD[Geometry Data]:::branch1
     
-    T --> OD[Outer Diam.]
-    T --> WT[Wall Thick.]
+    %% Bending Setups branch
+    BS --> Tube[Tube]:::branch2
+    BS --> Machine[Machine]:::branch2
     
-    M --> BTA[Bend Target Angle]
-    M --> WDS[Wiper Die Short.]
-    M --> PD[Pressure Die]
-    M --> Mand[Mandrel]
-    M --> CB[Collet Boost]
-    M --> CDLP[Clamp Die Lat. Pos.]
+    Tube --> OD[Outer Diam.]:::leaf
+    Tube --> WT[Wall Thick.]:::leaf
     
-    PD --> LPD[Lateral Pos.]
-    PD --> Dist[Distance]
-    PD --> Boost[Boost]
+    Machine --> BTA[Bend Target Angle]:::leaf
+    Machine --> WDS[Wiper Die Short.]:::leaf
+    Machine --> PD[Pressure Die]:::branch3
+    Machine --> Mandrel[Mandrel]:::branch3
+    Machine --> CB[Collet Boost]:::leaf
+    Machine --> CDLP[Clamp Die Lat. Pos.]:::leaf
     
-    Mand --> Pos[Position]
-    Mand --> RT[Retract. Timing]
-```
+    PD --> LPD[Lateral Pos.]:::leaf
+    PD --> Dist[Distance]:::leaf
+    PD --> Boost[Boost]:::leaf
+    
+    Mandrel --> Pos[Position]:::leaf
+    Mandrel --> RT[Retract. Timing]:::leaf
+    
+    %% Process Parameters branch
+    PP --> Loads[Loads]:::branch2
+    PP --> Movements[Movements]:::branch2
+    
+    Loads --> LM[Machine]:::branch3
+    Loads --> Sensor[Sensor]:::branch3
+    
+    LM --> LMB[Bend Die]:::branch4
+    LM --> LMCDL[Clamp Die Lat.]:::leaf
+    LM --> LMC[Collet]:::branch4
+    LM --> LMMA[Mandrel Axial]:::leaf
+    LM --> LMPD[Pressure Die]:::branch4
+    
+    LMB --> LMBL[Lateral]:::leaf
+    LMB --> LMBR[Rotating]:::leaf
+    LMB --> LMBV[Vertical]:::leaf
+    
+    LMC --> LMCA[Axial]:::leaf
+    LMC --> LMCR[Rotating]:::leaf
+    
+    LMPD --> LMPDA[Axial]:::leaf
+    LMPD --> LMPDL[Lateral]:::leaf
+    LMPD --> LMPDLA[Left Axial]:::leaf
+    
+    Sensor --> SMA[Mandrel Axial]:::leaf
+    Sensor --> SPD[Pressure Die]:::branch4
+    
+    SPD --> SPDL1[Lateral 1]:::leaf
+    SPD --> SPDL2[Lateral 2]:::leaf
+    
+    Movements --> MBD[Bend Die]:::branch3
+    Movements --> MCDL[Clamp Die Lat.]:::leaf
+    Movements --> MC[Collet]:::branch3
+    Movements --> MMA[Mandrel Axial]:::leaf
+    Movements --> MPD[Pressure Die]:::branch3
+    
+    MBD --> MBDL[Lateral]:::leaf
+    MBD --> MBDR[Rotating]:::leaf
+    MBD --> MBDV[Vertical]:::leaf
+    
+    MC --> MCA[Axial]:::leaf
+    MC --> MCR[Rotating]:::leaf
+    
+    MPD --> MPDA[Axial]:::leaf
+    MPD --> MPDL[Lateral]:::leaf
+    MPD --> MPDLA[Left Axial]:::leaf
+    
+    %% Geometry Data branch
+    GD --> STL[STL-Suit.]:::branch2
+    GD --> KC[Key Characteristics Table]:::branch2
+    
+    STL --> STL1[Linear 1]:::leaf
+    STL --> STLA[Arc]:::leaf
+    STL --> STL2[Linear 2]:::leaf
+    
+    KC --> KCL1[Linear 1]:::branch3
+    KC --> KCA[Arc]:::branch3
+    KC --> KCL2[Linear 2]:::branch3
+    
+    KCL1 --> KCL1S[Sec. Axis]:::leaf
+    KCL1 --> KCL1M[Main Axis]:::leaf
+    KCL1 --> KCL1O[Out of Round.]:::leaf
+    
+    KCA --> KCAS[Sec. Axis]:::leaf
+    KCA --> KCAM[Main Axis]:::leaf
+    KCA --> KCAO[Out of Round.]:::leaf
+    
+    KCL2 --> KCL2S[Sec. Axis]:::leaf
+    KCL2 --> KCL2M[Main Axis]:::leaf
+    KCL2 --> KCL2O[Out of Round.]:::leaf
+    
+    %% Styling
+    classDef root fill:#795548,color:white,stroke:#5D4037,stroke-width:2px;
+    classDef branch1 fill:#A1887F,color:white;
+    classDef branch2 fill:#BCAAA4,color:black;
+    classDef branch3 fill:#D7CCC8,color:black;
+    classDef branch4 fill:#EFEBE9,color:black;
+    classDef leaf fill:#4CAF50,color:white;
 
 
 
