@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ---
 
 ```mermaid
-graph LR
+graph TD
     TB[TubeBend Dataset] --> BS[Bending Setups]
     TB --> PP[Process Parameters]
     TB --> GD[Geometry Data]
