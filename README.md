@@ -61,20 +61,20 @@ graph LR
     TB --> PP[Process Parameters]
     TB --> GD[Geometry Data]
     
-    PP --> PPLM[Loads Machine<br/><small>process_parameters_loads_machine</small>]
-    PP --> PPLS[Loads Sensor<br/><small>process_parameters_loads_sensor</small>]
-    PP --> PPM[Movements<br/><small>process_parameters_movements</small>]
+    PP --> PPLM[Loads Machine]
+    PP --> PPLS[Loads Sensor]
+    PP --> PPM[Movements]
     
-    GD --> GDSL[Geometry Data STL Suitable<br/><small>geometry_data_stl_suitable</small>]
-    GD --> GDKC[Geometry Data Key Characteristics<br/><small>geometry_data_key_characteristics</small>]
+    GD --> GDSL[STL Suitable]
+    GD --> GDKC[Key Characteristics]
     
-    GDSL --> GDSL1[Linear 1<br/><small>geometry_data_stl_suitable_linear_1</small>]
-    GDSL --> GDSLA[Arc<br/><small>geometry_data_stl_suitable_arc</small>]
-    GDSL --> GDSL2[Linear 2<br/><small>geometry_data_stl_suitable_linear_2</small>]
+    GDSL --> GDSL1[Linear 1]
+    GDSL --> GDSLA[Arc]
+    GDSL --> GDSL2[Linear 2]
     
-    GDKC --> GDKCL1[Linear 1<br/><small>geometry_data_key_characteristics_linear_1</small>]
-    GDKC --> GDKCA[Arc<br/><small>geometry_data_key_characteristics_arc</small>]
-    GDKC --> GDKCL2[Linear 2<br/><small>geometry_data_key_characteristics_linear_2</small>]
+    GDKC --> GDKCL1[Linear 1]
+    GDKC --> GDKCA[Arc]
+    GDKC --> GDKCL2[Linear 2]
 ```
 
 ### Part 1: Import Required Library and Load the Dataset
