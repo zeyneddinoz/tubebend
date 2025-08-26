@@ -55,6 +55,28 @@ pip install -r requirements.txt
 
 ---
 
+```mermaid
+graph TD
+    TB[TubeBend Dataset] --> BS[Bending Setups<br/><small>bending_setups</small>]
+    TB --> PP[Process Parameters]
+    TB --> GD[Geometry Data]
+    
+    PP --> PPLM[Process Parameters Loads Machine<br/><small>process_parameters_loads_machine</small>]
+    PP --> PPLS[Process Parameters Loads Sensor<br/><small>process_parameters_loads_sensor</small>]
+    PP --> PPM[Process Parameters Movements<br/><small>process_parameters_movements</small>]
+    
+    GD --> GDSL[Geometry Data STL Suitable<br/><small>geometry_data_stl_suitable</small>]
+    GD --> GDKC[Geometry Data Key Characteristics<br/><small>geometry_data_key_characteristics</small>]
+    
+    GDSL --> GDSL1[Linear 1<br/><small>geometry_data_stl_suitable_linear_1</small>]
+    GDSL --> GDSLA[Arc<br/><small>geometry_data_stl_suitable_arc</small>]
+    GDSL --> GDSL2[Linear 2<br/><small>geometry_data_stl_suitable_linear_2</small>]
+    
+    GDKC --> GDKCL1[Linear 1<br/><small>geometry_data_key_characteristics_linear_1</small>]
+    GDKC --> GDKCA[Arc<br/><small>geometry_data_key_characteristics_arc</small>]
+    GDKC --> GDKCL2[Linear 2<br/><small>geometry_data_key_characteristics_linear_2</small>]
+```
+
 
 ```mermaid
 graph LR
