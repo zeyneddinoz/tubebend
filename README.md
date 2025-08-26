@@ -77,37 +77,6 @@ graph LR
     GDKC --> GDKCL2[Linear 2<br/><small>geometry_data_key_characteristics_linear_2</small>]
 ```
 
-
-```mermaid
-graph LR
-    TB[TubeBend Dataset] --> BS[Bending Setups]
-    TB --> PP[Process Parameters]
-    TB --> GD[Geometry Data]
-    
-    BS --> T[Tube]
-    BS --> M[Machine]
-    
-    T --> OD[Outer Diam.]
-    T --> WT[Wall Thick.]
-    
-    M --> BTA[Bend Target Angle]
-    M --> WDS[Wiper Die Short.]
-    M --> PD[Pressure Die]
-    M --> Mand[Mandrel]
-    M --> CB[Collet Boost]
-    M --> CDLP[Clamp Die Lat. Pos.]
-    
-    PD --> LPD[Lateral Pos.]
-    PD --> Dist[Distance]
-    PD --> Boost[Boost]
-    
-    Mand --> Pos[Position]
-    Mand --> RT[Retract. Timing]
-```
-
-
-
-
 ### Part 1: Import Required Library and Load the Dataset
 
 ```python
