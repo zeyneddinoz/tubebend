@@ -59,7 +59,6 @@ pip install -r requirements.txt
 graph TB
     %% Root node
     Root[TubeBend Dataset]:::root
-    
     %% Main branches
     Root --> BS[Bending Setups]:::branch1
     Root --> PP[Process Parameters]:::branch1
