@@ -61,9 +61,9 @@ graph LR
     TB --> PP[Process Parameters]
     TB --> GD[Geometry Data]
     
-    PP --> PPLM[Process Parameters Loads Machine<br/><small>process_parameters_loads_machine</small>]
-    PP --> PPLS[Process Parameters Loads Sensor<br/><small>process_parameters_loads_sensor</small>]
-    PP --> PPM[Process Parameters Movements<br/><small>process_parameters_movements</small>]
+    PP --> PPLM[Loads Machine<br/><small>process_parameters_loads_machine</small>]
+    PP --> PPLS[Loads Sensor<br/><small>process_parameters_loads_sensor</small>]
+    PP --> PPM[Movements<br/><small>process_parameters_movements</small>]
     
     GD --> GDSL[Geometry Data STL Suitable<br/><small>geometry_data_stl_suitable</small>]
     GD --> GDKC[Geometry Data Key Characteristics<br/><small>geometry_data_key_characteristics</small>]
