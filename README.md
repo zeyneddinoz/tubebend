@@ -1,6 +1,6 @@
 # Rotary Tube Bending Process Dataset
 
-**Authors:** Zeyneddin Oz, Jonas Knoche, Alireza Yazdani, Bernd Engel, Kristof Van Laerhoven
+**Authors:** Zeyneddin Oez, Jonas Knoche, Alireza Yazdani, Bernd Engel, Kristof Van Laerhoven
 
 **Affiliation:** [**University of Siegen**](https://www.uni-siegen.de/start/), Germany
 
