@@ -190,3 +190,12 @@ This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Researc
 
 ## References
 [1] Borchmann, L., Schneider, D., and Engel, B. "*Design of a fuzzy controller to prevent wrinkling during rotary draw bending*" (2021).
+
+## To cite this dataset:
+@article{oz2025tubebend,
+  title={TubeBEND: A Real-World Dataset for Geometry Prediction in Rotary Draw Bending},
+  author={Oz, Zeyneddin and Knoche, Jonas and Yazdani, Alireza and Engel, Bernd and Van Laerhoven, Kristof},
+  journal={arXiv preprint arXiv:2509.10272},
+  year={2025}
+}
+
