@@ -6,7 +6,6 @@
 
 **Research paper:** [https://arxiv.org/pdf/2509.10272](https://arxiv.org/pdf/2509.10272)
 
-
 This repository contains a real-world dataset from 318 tube bending processes (including 3 failed cases: IDs 1, 48, and 166). The dataset is stored in a serialized Python pickle file named `experiments_process_and_results.pkl`. It is designed as a benchmark for validating and comparing the performance of machine learning and signal analysis methods. The dataset includes: <br><be>
 
 <p align="center">
@@ -190,6 +189,8 @@ print(list(features_as_pandas_dataframe.columns)[1:])
 This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project-IDs 520256321.
 
 📄 The dataset is shared for preview/research purposes. The license will be added later.
+
+To see 3D geometry files as well, please click on: https://zenodo.org/records/18458823
 
 ## References
 [1] Borchmann, L., Schneider, D., and Engel, B. "*Design of a fuzzy controller to prevent wrinkling during rotary draw bending*" (2021).
