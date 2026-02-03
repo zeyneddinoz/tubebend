@@ -190,10 +190,7 @@ This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Researc
 
 📄 The dataset is shared for preview/research purposes. The license will be added later.
 
-To see 3D geometry files as well, please click on: https://zenodo.org/records/18458823
-
-## References
-[1] Borchmann, L., Schneider, D., and Engel, B. "*Design of a fuzzy controller to prevent wrinkling during rotary draw bending*" (2021).
+**To see 3D geometry files as well, please click on:** https://zenodo.org/records/18458823
 
 ## To cite this dataset:
 ```python
@@ -204,3 +201,6 @@ To see 3D geometry files as well, please click on: https://zenodo.org/records/18
   year={2025}
 }
 ```
+
+## References
+[1] Borchmann, L., Schneider, D., and Engel, B. "*Design of a fuzzy controller to prevent wrinkling during rotary draw bending*" (2021).
