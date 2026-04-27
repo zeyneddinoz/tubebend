@@ -188,11 +188,11 @@ print(list(features_as_pandas_dataframe.columns)[1:])
 
 This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project-IDs 520256321.
 
-📄 The dataset is shared for preview/research purposes. The license will be added later.
-
 **To see 3D geometry files (stl) as well, please click on:** https://zenodo.org/records/18458823
 
-## To cite this dataset:
+## Citation:
+📄 If you find this dataset helpful, feel free to give us a cite.
+
 ```python
 @article{oz2025tubebend,
   title={TubeBEND: A Real-World Dataset for Geometry Prediction in Rotary Draw Bending},
